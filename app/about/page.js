@@ -17,15 +17,15 @@ export default async function About() {
           ></p>
         ))}
         <div className="flex align-center justify-center mb-4 md:mb-0">
-          <Link
+          {/* <Link
             href="/bios/Omri Kochavi - bio (January 24).pdf"
             className="underline font-light"
           >
             Bio
           </Link>
-          <span className="mx-2">-</span>
+          <span className="mx-2">-</span> */}
           <Link
-            href="/bios/Omri kochavi - CV (January 24).pdf"
+            href="/bios/Alma Rottem CV 2023.pdf"
             className="underline font-light"
           >
             CV
@@ -34,7 +34,7 @@ export default async function About() {
       </div>
       <div className="ml-auto">
         <Image
-          src="/profile.jpg"
+          src="/profile-2.png"
           width={490}
           height={1175}
           className="hidden md:block"
